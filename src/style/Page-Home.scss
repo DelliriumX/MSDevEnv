@@ -1,0 +1,46 @@
+.HomePage-wrapper {
+  height: 640px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 50px auto 0;
+  padding: 30px;
+  background-color: whitesmoke;
+  color: #0f0f0f;
+  font-weight: 300;
+
+  h1 {
+    margin: 20px 50px;
+  }
+  h2 {
+    margin: 8px 50px;
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  h3 {
+    margin: 8px 50px;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    a {
+      font-size: 16px;
+      text-decoration: underline;
+      color: blue;
+      cursor: pointer;
+    }
+  }
+
+  code {
+    color:red;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 50px 20px 20px;
+  }
+
+  ul {
+    margin: 0 50px;
+    font-size: 14px;
+  }
+}

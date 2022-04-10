@@ -1,0 +1,19 @@
+{
+  "extend": [],
+  "modules": {
+    "api": {
+      "path": "https://www.base-path-to-your-api.com",
+      "options": {
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "authorization": {
+        "type": "Bearer",
+        "source": "store",
+        "selector": "selectToken"
+      }
+    },
+    "auth": {}
+  }
+}
